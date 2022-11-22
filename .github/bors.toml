@@ -1,0 +1,14 @@
+delete_merged_branches = true
+required_approvals = 0
+use_codeowners = false
+status = [
+    "fmt",
+    "clippy",
+    "check-%",
+    "coverage-%",
+    "test-%",
+    "valgrind",
+    "careful",
+    "emscripten",
+]
+timeout_sec = 21600
