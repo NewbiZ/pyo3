@@ -11,3 +11,4 @@ pub mod num_complex;
 mod osstr;
 mod path;
 pub mod serde;
+pub mod rust_decimal;
